@@ -11,7 +11,7 @@ class MyWidgetsApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: const AppTheme().getTheme(),
+      theme: const AppTheme(seedColor: Colors.cyan).getTheme(),
       home: const HomePage(),
     );
   }
