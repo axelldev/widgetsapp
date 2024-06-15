@@ -18,13 +18,13 @@ final appMenuItems = <MenuItem>[
   MenuItem(
     title: "Button",
     subtitle: "Button types on flutter",
-    route: "buttons",
+    route: "/buttons",
     icon: Icons.smart_button_outlined,
   ),
   MenuItem(
     title: "Cards",
     subtitle: "Styled container",
-    route: "card",
+    route: "/card",
     icon: Icons.credit_card,
   ),
 ];
