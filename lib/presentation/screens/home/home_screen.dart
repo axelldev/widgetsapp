@@ -3,6 +3,9 @@ import 'package:go_router/go_router.dart';
 import 'package:widgetsapp/config/menu_items.dart';
 
 class HomeScreen extends StatelessWidget {
+  // Home route name
+  static const name = "home";
+
   const HomeScreen({super.key});
 
   @override
